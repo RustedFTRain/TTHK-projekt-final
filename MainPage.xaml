@@ -37,12 +37,12 @@
                         Clicked="blueButton_Clicked"/>
 
                 <Button Text="Squirrel Monkey"
-                        Clicked="testButton_Clicked"
-                        ImageSource="baboon.jpg"/>
+                        Clicked="squirrelButton_Clicked"
+                        ImageSource="squirrel.jpg"/>
 
                 <Button Text="Golden Lion Tamarin"
-                        Clicked="testButton_Clicked"
-                        ImageSource="baboon.jpg"/>
+                        Clicked="tamarinButton_Clicked"
+                        ImageSource="tamarin.jpg"/>
 
         </VerticalStackLayout>
     </ScrollView>

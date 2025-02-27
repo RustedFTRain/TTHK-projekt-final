@@ -72,6 +72,12 @@
 	  <Compile Update="blue.xaml.cs">
 	    <DependentUpon>blue.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="tamarin.xaml.cs">
+	    <DependentUpon>tamarin.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="squirrel.xaml.cs">
+	    <DependentUpon>squirrel.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -82,6 +88,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="blue.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="tamarin.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="squirrel.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

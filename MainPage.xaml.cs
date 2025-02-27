@@ -27,13 +27,13 @@
         {
             Shell.Current.GoToAsync("blue");
         }
-        private void Button_Clicked5(object sender, EventArgs e)
+        private void squirrelButton_Clicked(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync("test");
+            Shell.Current.GoToAsync("squirrel");
         }
-        private void Button_Clicked6(object sender, EventArgs e)
+        private void tamarinButton_Clicked(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync("test");
+            Shell.Current.GoToAsync("tamarin");
         }
     }
 }
