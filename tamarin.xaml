@@ -3,10 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TTHK_projekt_final.Tamarin"
              Title="Tamarin">
+
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#666" Offset="0.0"/>
+            <GradientStop Color="#e4c778" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Golden Lion Tamarin"
+            Margin="14"
+            FontSize="36"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
+        <Image
+                Source="tamarin.jpg"
+                HeightRequest="200"
+                Aspect="AspectFit"
+                Margin="10"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+        <Label 
+            Text="Location: Brazil"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+        <Label 
+            Text="Population: 19000"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
+        <Label 
+            Text="The golden lion tamarin also known as the golden marmoset, is a small New World monkey of the family Callitrichidae."
+            Margin="8"
+            FontSize="18"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"/>
     </VerticalStackLayout>
 </ContentPage>

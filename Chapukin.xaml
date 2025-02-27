@@ -4,16 +4,65 @@
              x:Class="TTHK_projekt_final.chapukin"
              Title="chapukin">
     
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#666" Offset="0.0"/>
+            <GradientStop Color="#e4c778" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Capuchin Monkey"
+            Margin="14"
+            FontSize="36"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
         
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
         <Image
                 Source="chapukin.jpg"
                 HeightRequest="200"
-                Aspect="AspectFit"/>
+                Aspect="AspectFit"
+                Margin="10"/>
+        
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+        <Label 
+            Text="Location: Central and South America"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+        <Label 
+            Text="Population: 23000"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
+        <Label 
+            Text="The capuchin monkeys are New World monkeys of the subfamily Cebinae. Prior to 2011, the subfamily contained only a single genus, Cebus."
+            Margin="8"
+            FontSize="18"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"/>
 
     </VerticalStackLayout>
 </ContentPage>

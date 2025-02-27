@@ -3,14 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TTHK_projekt_final.squirrel"
              Title="squirrel">
+
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#666" Offset="0.0"/>
+            <GradientStop Color="#e4c778" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Squirrel Monkey"
+            Margin="14"
+            FontSize="36"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
         <Image
                 Source="squirrel.jpg"
                 HeightRequest="200"
-                Aspect="AspectFit"/>
+                Aspect="AspectFit"
+                Margin="10"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+        <Label 
+            Text="Location: Central and South America"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+        <Label 
+            Text="Population: 11000"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
+        <Label 
+            Text="The squirrel monkeys are the New World monkeys of the genus Saimiri. They are the only genus in the subfamily Saimirinae. The name of the genus Saimiri is of Tupi origin, and was also used as an English name by early researchers"
+            Margin="8"
+            FontSize="18"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"/>
     </VerticalStackLayout>
 </ContentPage>
