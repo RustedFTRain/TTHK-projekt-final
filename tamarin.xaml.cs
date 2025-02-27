@@ -1,8 +1,8 @@
 namespace TTHK_projekt_final;
 
-public partial class tamarin : ContentPage
+public partial class Tamarin : ContentPage
 {
-	public tamarin()
+	public Tamarin()
 	{
 		InitializeComponent();
 	}

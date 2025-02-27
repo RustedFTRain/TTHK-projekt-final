@@ -15,7 +15,7 @@ namespace TTHK_projekt_final
             Routing.RegisterRoute("baboon", typeof(baboon));
             Routing.RegisterRoute("chapukin", typeof(chapukin));
             Routing.RegisterRoute("squirrel", typeof(squirrel));
-            Routing.RegisterRoute("tamarin", typeof(tamarin));
+            Routing.RegisterRoute("tamarin", typeof(Tamarin));
         }
         protected override Window CreateWindow(IActivationState activationState)
         {

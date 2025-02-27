@@ -3,17 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TTHK_projekt_final.baboon"
              Title="baboon">
-    
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#666" Offset="0.0"/>
+            <GradientStop Color="#e4c778" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Baboon"
+            Margin="14"
+            FontSize="36"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
         
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
         <Image
                 Source="baboon.jpg"
                 HeightRequest="200"
-                Aspect="AspectFit"/>
+                Aspect="AspectFit"
+                Margin="10"/>
         
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+        <Label 
+            Text="Location: Africa and Asia"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+        <Label 
+            Text="Population: 10000"
+            Margin="8"
+            FontSize="24"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"/>
+
+        <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}"/>
+
+        <Label 
+            Text="Baboons are African and Arabian Old World monkeys belonging to the genus Papio, part of the subfamily Cercopithecinae."
+            Margin="8"
+            FontSize="18"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"/>
+
     </VerticalStackLayout>
 </ContentPage>
