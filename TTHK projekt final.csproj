@@ -63,16 +63,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="OtherPage.xaml.cs">
-	    <DependentUpon>OtherPage.xaml</DependentUpon>
+	  <Compile Update="baboon.xaml.cs">
+	    <DependentUpon>baboon.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Chapukin.xaml.cs">
+	    <DependentUpon>Chapukin.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="blue.xaml.cs">
+	    <DependentUpon>blue.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="NewPage1.xaml">
+	  <MauiXaml Update="baboon.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="OtherPage.xaml">
+	  <MauiXaml Update="Chapukin.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="blue.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

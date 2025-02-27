@@ -13,6 +13,7 @@
 
     <ScrollView>
         <VerticalStackLayout>
+            
             <Image
                 Source="monkey.png"
                 HeightRequest="200"
@@ -23,25 +24,25 @@
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"/>
 
-            <Button Text="Find Monkeys"
-                    Clicked="baboonButton_Clicked"
-                    ImageSource="baboon.jpg"/>
+                <Button Text="Baboon"
+                        Clicked="baboonButton_Clicked"
+                        ImageSource="baboon.jpg"/>
 
-            <Button Text="Find Monkeys"
-                    Clicked="testButton_Clicked"
-                    ImageSource="baboon.jpg"/>
+                <Button Text="Capuchin Monkey"
+                        Clicked="chapukinButton_Clicked"
+                        ImageSource="chapukin.jpg"/>
 
-            <Button Text="Find Monkeys"
-                    ImageSource="baboon.jpg"
-                    Clicked="testButton_Clicked"/>
+                <Button Text="Blue Monkey"
+                        ImageSource="bluemonkey.jpg"
+                        Clicked="blueButton_Clicked"/>
 
-            <Button Text="Find Monkeys"
-                    Clicked="testButton_Clicked"
-                    ImageSource="baboon.jpg"/>
-            
-            <Button Text="Find Monkeys"
-                    Clicked="testButton_Clicked"
-                    ImageSource="baboon.jpg"/>
+                <Button Text="Squirrel Monkey"
+                        Clicked="testButton_Clicked"
+                        ImageSource="baboon.jpg"/>
+
+                <Button Text="Golden Lion Tamarin"
+                        Clicked="testButton_Clicked"
+                        ImageSource="baboon.jpg"/>
 
         </VerticalStackLayout>
     </ScrollView>

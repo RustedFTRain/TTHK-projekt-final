@@ -1,8 +1,8 @@
 namespace TTHK_projekt_final;
 
-public partial class OtherPage : ContentPage
+public partial class blue : ContentPage
 {
-	public OtherPage()
+	public blue()
 	{
 		InitializeComponent();
 	}

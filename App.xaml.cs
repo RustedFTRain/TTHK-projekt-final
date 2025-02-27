@@ -11,9 +11,9 @@ namespace TTHK_projekt_final
 
             MainPage = new AppShell();
 
-            Routing.RegisterRoute("main", typeof(MainPage));
-            Routing.RegisterRoute("test", typeof(OtherPage));
+            Routing.RegisterRoute("blue", typeof(blue));
             Routing.RegisterRoute("baboon", typeof(baboon));
+            Routing.RegisterRoute("chapukin", typeof(chapukin));
 
         }
         protected override Window CreateWindow(IActivationState activationState)

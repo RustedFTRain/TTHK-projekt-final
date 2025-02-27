@@ -19,15 +19,19 @@
         {
             Shell.Current.GoToAsync("baboon");
         }
-        private void Button_Clicked3(object sender, EventArgs e)
+        private void chapukinButton_Clicked(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync("test");
+            Shell.Current.GoToAsync("chapukin");
         }
-        private void Button_Clicked4(object sender, EventArgs e)
+        private void blueButton_Clicked(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync("test");
+            Shell.Current.GoToAsync("blue");
         }
         private void Button_Clicked5(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync("test");
+        }
+        private void Button_Clicked6(object sender, EventArgs e)
         {
             Shell.Current.GoToAsync("test");
         }
