@@ -1,25 +1,35 @@
 ﻿namespace TTHK_projekt_final
+
+
+
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
+        const int WindowWidth = 540;
+        const int WindowHeight = 1200;
         public MainPage()
         {
             InitializeComponent();
         }
-
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void testButton_Clicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            Shell.Current.GoToAsync("test");
+        }
+        private void baboonButton_Clicked(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync("baboon");
+        }
+        private void Button_Clicked3(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync("test");
+        }
+        private void Button_Clicked4(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync("test");
+        }
+        private void Button_Clicked5(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync("test");
         }
     }
-
 }

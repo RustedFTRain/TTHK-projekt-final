@@ -27,6 +27,14 @@
     <Color x:Key="Gray600">#404040</Color>
     <Color x:Key="Gray900">#212121</Color>
     <Color x:Key="Gray950">#141414</Color>
+    
+    <Color x:Key="FrameBackgroundColor">#F1EFF0</Color>
+    <Color x:Key="BorderColor">Transparent</Color>
+    <Color x:Key="DarkTextColor">#252525</Color>
+    <Color x:Key="ButtonBackgroundColor">#d7ac38</Color>
+    <Color x:Key="LightTextColor">#d5d5d5</Color>
+    <Color x:Key="PageBackgroundColor">#191932</Color>
+    <Color x:Key="LightBorderColor">#d5d5d5</Color>
 
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
